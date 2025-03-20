@@ -1,0 +1,9 @@
+path: ../OID/Dataset  # Dataset
+train: train/images  # Obrazy do trenowania
+val: validation/images     # Obrazy do walidacji
+
+
+nc: 10   # Liczba klas
+
+# Nazwy klas
+names: ['Cat', 'Horse', 'Dog', 'Bird', 'Elephant', 'Fish', 'Hamster', 'Rabbit', 'Lion', 'Monkey']
